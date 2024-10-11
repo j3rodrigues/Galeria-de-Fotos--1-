@@ -1,0 +1,42 @@
+h1{
+    font-size: 400%;
+    color: rgb(19, 33, 73);
+    justify-content: center;
+
+}
+#tudo{
+    background-color: rgb(79, 91, 126);
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px;
+    justify-content: center;
+}
+
+.container img{
+    object-fit: cover;
+    display: flex;
+    width: 300px; 
+    height: 300px;
+    margin: 6px;
+}
+
+.container img:hover{
+    transform: scale(1.5);
+}
+@media (max-width: 600px) {
+    .container img {
+      width: 100%;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
